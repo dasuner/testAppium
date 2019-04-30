@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [FirstTestSuite]" parallel="tests">
+  <test thread-count="1" name="ChromeTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.daz.testAppium.chromeTest">
+        <methods>
+          <include name="googleSearch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.daz.testAppium.chromeTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [FirstTestSuite] -->

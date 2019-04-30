@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="FirstTestSuite" parallel="tests" thread-count="1" >
+    
+<test name="SimpleTest" >     
+    <classes>
+       <class name="com.daz.testAppium.SimpleAppiumTest">
+       <methods>
+     
+      </methods>
+      </class> 
+    </classes>
+  <!-- </test> 
+  <test name="DialTest" >     
+    <classes>
+       <class name="com.daz.testAppium.phoneDialer">
+       <methods>
+     
+      </methods>
+      </class> 
+    </classes>
+  </test> 
+  <test name="ChromeTest" >     
+    <classes>
+       <class name="com.daz.testAppium.chromeTest">
+       <methods>
+     
+      </methods>
+      </class> 
+    </classes>
+  </test> 
+ -->
+  
+
+ 
+</suite>
