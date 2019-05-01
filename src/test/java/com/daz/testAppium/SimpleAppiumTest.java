@@ -36,7 +36,8 @@ public class SimpleAppiumTest {
 		cap.setCapability("appPackage", "com.android.calculator2");
 		cap.setCapability("appActivity", "com.android.calculator2.Calculator");
 		
-		driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
+		//driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
+		driver = new AndroidDriver<WebElement>(new URL("http://10.0.1.76:4723/wd/hub"),cap);
 	}
 	
 	

@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="7649" started-at="2019-04-30T15:52:51Z" finished-at="2019-04-30T15:52:59Z">
+  <suite name="Command line suite" duration-ms="9813" started-at="2019-05-01T10:10:08Z" finished-at="2019-05-01T10:10:18Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="7649" started-at="2019-04-30T15:52:51Z" finished-at="2019-04-30T15:52:59Z">
+    <test name="Command line test" duration-ms="9813" started-at="2019-05-01T10:10:08Z" finished-at="2019-05-01T10:10:18Z">
       <class name="com.daz.testAppium.SimpleAppiumTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.daz.testAppium.SimpleAppiumTest@5442a311]" name="setup" is-config="true" duration-ms="3292" started-at="2019-04-30T15:52:51Z" finished-at="2019-04-30T15:52:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.daz.testAppium.SimpleAppiumTest@5442a311]" name="setup" is-config="true" duration-ms="5409" started-at="2019-05-01T10:10:08Z" finished-at="2019-05-01T10:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="sample()[pri:0, instance:com.daz.testAppium.SimpleAppiumTest@5442a311]" name="sample" duration-ms="0" started-at="2019-04-30T15:52:54Z" finished-at="2019-04-30T15:52:54Z">
+        <test-method status="PASS" signature="sample()[pri:0, instance:com.daz.testAppium.SimpleAppiumTest@5442a311]" name="sample" duration-ms="0" started-at="2019-05-01T10:10:13Z" finished-at="2019-05-01T10:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sample -->
-        <test-method status="PASS" signature="simpleTest()[pri:0, instance:com.daz.testAppium.SimpleAppiumTest@5442a311]" name="simpleTest" duration-ms="3737" started-at="2019-04-30T15:52:54Z" finished-at="2019-04-30T15:52:58Z">
+        <test-method status="PASS" signature="simpleTest()[pri:0, instance:com.daz.testAppium.SimpleAppiumTest@5442a311]" name="simpleTest" duration-ms="3733" started-at="2019-05-01T10:10:13Z" finished-at="2019-05-01T10:10:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- simpleTest -->
-        <test-method status="PASS" signature="teatDown()[pri:0, instance:com.daz.testAppium.SimpleAppiumTest@5442a311]" name="teatDown" is-config="true" duration-ms="603" started-at="2019-04-30T15:52:58Z" finished-at="2019-04-30T15:52:59Z">
+        <test-method status="PASS" signature="teatDown()[pri:0, instance:com.daz.testAppium.SimpleAppiumTest@5442a311]" name="teatDown" is-config="true" duration-ms="652" started-at="2019-05-01T10:10:17Z" finished-at="2019-05-01T10:10:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
